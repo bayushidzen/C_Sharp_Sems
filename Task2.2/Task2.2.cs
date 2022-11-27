@@ -13,13 +13,11 @@ if (a>99)
     while (a>1000)
     {
         a = a/10;
-        Console.WriteLine($"Рандомное число в процессе while: {a}");
     }
 }
 else
 {
     Console.WriteLine($"Третьей цифры нет: {a}");
 }
-Console.WriteLine($"Рандомное число после while: {a}");
 int result = a % 10;
 Console.WriteLine($"Третья цифра рандомного числа: {result}");
