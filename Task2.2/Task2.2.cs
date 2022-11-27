@@ -5,7 +5,7 @@
 // 78 -> третьей цифры нет
 // 32679 -> 6
 
-int a = new Random().Next(1,100000000);
+int a = new Random().Next(1,100);
 Console.WriteLine($"Рандомное число: {a}");
 
 if (a>99)
@@ -14,10 +14,10 @@ if (a>99)
     {
         a = a/10;
     }
+    int result = a % 10;
+    Console.WriteLine($"Третья цифра рандомного числа: {result}");
 }
 else
 {
     Console.WriteLine($"Третьей цифры нет: {a}");
 }
-int result = a % 10;
-Console.WriteLine($"Третья цифра рандомного числа: {result}");
