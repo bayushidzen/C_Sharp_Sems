@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/Task2_Sp2/Task2_Sp2.csproj",
+                "${workspaceFolder}/Task1_2/Task2.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -19,7 +19,7 @@
             "type": "process",
             "args": [
                 "publish",
-                "${workspaceFolder}/Task2_Sp2/Task2_Sp2.csproj",
+                "${workspaceFolder}/Task1_2/Task2.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -33,7 +33,7 @@
                 "watch",
                 "run",
                 "--project",
-                "${workspaceFolder}/Task2_Sp2/Task2_Sp2.csproj"
+                "${workspaceFolder}/Task1_2/Task2.csproj"
             ],
             "problemMatcher": "$msCompile"
         }
